@@ -1,0 +1,173 @@
+<!-- cú pháp "! + Enter" sẻ tạo ra nhanh ra cái template code html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet"> 
+    <script src="https://kit.fontawesome.com/ff920bae46.js" crossorigin="anonymous"></script>
+    <!-- Phông chữ -->
+</head>
+<body>
+    <div class="app">
+        <!-- Block Element Modifier -->
+        <header class="header">
+            <div class="grid">
+                <nav class="header__navbar">
+                    <ul class="header__navbar-list">
+                        <li class="header__navbar-item">
+                            <a href="" class="head__navbar-item-link head__navbar-item-link--separate">Giới thiệu</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="head__navbar-item-link head__navbar-item-link--separate">Cửa hàng</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="head__navbar-item-link head__navbar-item-link--separate">Thành viên</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="head__navbar-item-link head__navbar-item-link--separate">Liên hệ</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="head__navbar-item-link head__navbar-item-link--separate">Kiểm tra hóa đơn</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="head__navbar-item-link head__navbar-item-link--separate">Tải ứng dụng</a>
+                        </li>
+                        <li class="header__navbar-item">
+                            <a href="" class="head__navbar-item-link head__navbar-item-link--bold">HASAGI-eID</a>
+                        </li>
+                    </ul>
+                </nav>
+                <div class="header-with-search">
+                    <div class="header__logo" >
+                        <img src="assets/img/HASAGI-removebg-preview.png" alt="Logo" class="header-with-search-logo">
+                    </div>
+                    <div class="header__search">
+                        <div class="header__search-input-warp">
+                            <input type="text" class="header__search-input" placeholder="Nhập để tìm kiếm">
+                            <!-- Search history -->
+                            <div class="header__search-history">
+                                <div class="header__search-history-heading">Lịch sử tìm kiếm</div>
+                                <ul class="header__search-history-list">
+                                    <li class="header__search-history-item">
+                                        <a href="">Cơm nắm</a>
+                                    </li>
+                                    <li class="header__search-history-item">
+                                        <a href="">Sữa</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header__search-select">
+                            <span class="header__search-select-label">Trong cửa hàng</span>
+                            <i class="header__search-select-icon fa-solid fa-chevron-down"></i>
+                            <ul class="header__search-option">
+                                <li class="header__search-option-item header__search-option-item--active">
+                                    <span>Trong cửa hàng</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                                <li class="header__search-option-item">
+                                    <span>Ngoài cửa hàng</span>
+                                    <i class="fa-solid fa-check"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header__search-btn">
+                            <i class="header__search-btn-icon fa-solid fa-magnifying-glass"></i>
+                        </button>
+                    </div>
+                    <!-- Cart -->
+                    <div class="header__notification">
+                        <i class="header__notification-icon fa-solid fa-cart-shopping"></i> 
+                    </div>
+                </div>
+                <div class="header__navbar2">
+                    <ul id="nav" class="header__navbar2-list2">
+                        <li class="header__navbar2-item2">
+                            <a href="" class="head__navbar2-item2-link2 head__navbar2-item2-link2--separate2">Sản phẩm</a>
+                        </li>
+                        <li class="header__navbar2-item2 header__navbar2-item2--hasnotify">
+                            <a href="" class="head__navbar2-item2-link2 head__navbar2-item2-link2--separate2">Tin tức</a> 
+                            <div class="header__noti">
+                                <header class="header__noti-header">
+                                    <h3>Tin tức mới nhất</h3>
+                                </header>
+                                <ul class="header__noti-list">
+                                    <li class="header__noti-item header__noti-item--viewed">
+                                        <a href="" class="header__noti-link">
+                                            <img src="assets/img/images (1).jpg" alt="" class="header__noti-img">
+                                            <div class="header__noti-info">
+                                                <span class="header__noti-name">THÔNG TIN CHƯƠNG TRÌNH KHUYẾN MÃI THÁNG 10</span>
+                                                <span class="header__noti-discription">Đây là thông tin tổng hợp các chương trình khuyến mãi diễn ra trong tháng 10/2024 tại các cửa hàng HASAGI.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__noti-item header__noti-item--viewed">
+                                        <a href="" class="header__noti-link">
+                                            <img src="assets/img/sukien.jpg" alt="" class="header__noti-img">
+                                            <div class="header__noti-info">
+                                                <span class="header__noti-name">Say mê làn sóng Hallyu, bạn trẻ xếp hàng dài chờ mua hàng tại HASAGI</span>
+                                                <span class="header__noti-discription">Say mê làn sóng Hallyu (Hàn lưu), nhiều bạn trẻ đã xếp hàng dài chờ cửa hàng HASAGI mở cửa để mua hàng</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__noti-item">
+                                        <a href="" class="header__noti-link">
+                                            <img src="assets/img/Nhannganuudai.jpg" alt="" class="header__noti-img">
+                                            <div class="header__noti-info">
+                                                <span class="header__noti-name">THÔNG TIN CHƯƠNG TRÌNH KHUYẾN MÃI THÁNG 9</span>
+                                                <span class="header__noti-discription">Đây là thông tin tổng hợp các chương trình khuyến mãi diễn ra trong tháng 09/2024 tại các cửa hàng HASAGI.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                    <li class="header__noti-item">
+                                        <a href="" class="header__noti-link">
+                                            <img src="assets/img/khuyenmaithăng.jpg" alt="" class="header__noti-img">
+                                            <div class="header__noti-info">
+                                                <span class="header__noti-name">THÔNG TIN CHƯƠNG TRÌNH KHUYẾN MÃI THÁNG 8</span>
+                                                <span class="header__noti-discription">Đây là thông tin tổng hợp các chương trình khuyến mãi diễn ra trong tháng 08/2024 tại các cửa hàng HASAGI.</span>
+                                            </div>
+                                        </a>
+                                    </li>
+                                </ul>
+                                <footer class="header__noti-footer">
+                                    <a href="" class="header__noti-footer-btn">Xem tất cả</a>
+                                </footer>
+                            </div>
+                        </li>
+                        <li class="header__navbar2-item2">
+                            <a href="" class="head__navbar2-item2-link2 head__navbar2-item2-link2--separate2">Nhượng quyền</a>
+                        </li>
+                        <li class="header__navbar2-item2">
+                            <a href="" class="head__navbar2-item2-link2 head__navbar2-item2-link2--separate2">Tuyển dụng</a>
+                        </li>
+                    </ul>
+                    <div class="headder__navbar2-notification">
+                        <div class="headder__navbar2-notification-noteheader">
+                            <figure>
+                                <img src="assets/img/icon_head_1.png" alt="Notificationimage" class="notification-img">
+                            </figure>
+                            <div class="headder__navbar2-notification-copy">
+                                <p class="paragraph">
+                                    Tưng bừng khai trương cửa hàng HASAGI 172 Trần Văn Ơn - Bình Dương ngày 1/9/2024
+                                    <img src="assets/img/khaitruong.png" alt="" class="headder__navbar2-notification-copy-imgkhaitruong">
+                                </p>
+                            </div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+        </header>
+        <div class="container">
+
+        </div>
+        <footer class="footer">
+            
+        </footer>
+    </div>
+</body>
+</html>
