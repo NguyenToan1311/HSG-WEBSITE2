@@ -1,2 +1,2 @@
-# HSG WEBSITE2
- Đây là dự án HSG
+# HASAGI STORE WEBSITE
+ Đây là dự án HASAGI store website
